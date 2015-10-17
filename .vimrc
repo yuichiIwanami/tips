@@ -1,0 +1,12 @@
+set number
+set title
+set showmatch
+syntax on
+set tabstop=4
+set ignorecase
+set smartcase
+set wrapscan
+set autoindent
+set incsearch
+set showcmd
+set laststatus=2
