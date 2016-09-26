@@ -1,13 +1,15 @@
 set autoindent
 set backspace=indent,eol,start
 set expandtab
+set hlsearch
 set ignorecase
 set incsearch
 set laststatus=2
 set number
-set smartcase
 set showcmd
 set showmatch
+set smartcase
+set smartindent
 set tabstop=4
 set title
 set wrapscan
