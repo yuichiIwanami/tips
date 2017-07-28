@@ -1,0 +1,10 @@
+--SET hive.exec.model.local.auto=true;
+SET hive.vectorized.execution.reduce.enabled=true;
+SET hive.vectorized.execution.enabled=true;
+SET hive.exec.compress.intermediate=true;
+--SET hive.cli.print.header=true;
+SET hive.exec.parallel=true;
+-- SET hive.mapred.map.output.compression.codec=org.apache.hadoop.io.compress.SnappyCodec;
+
+SET hive.limit.row.max.size=100000;
+SET hive.limit.optimize.limit.file=10;
