@@ -12,6 +12,7 @@ set showcmd
 set showmatch
 set smartcase
 set smartindent
+set shiftwidth=2 
 set tabstop=2
 set title
 set wrapscan
