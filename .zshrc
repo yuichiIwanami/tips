@@ -185,5 +185,9 @@ case ${OSTYPE} in
         ;;
 esac
 
+# タブ補完
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /mnt/c/Users/yiwanami/minio_service/mc mc
+
 # vim:set ft=zsh:
 cd /mnt/c/users/forrest
