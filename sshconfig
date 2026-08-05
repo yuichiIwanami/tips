@@ -1,0 +1,7 @@
+Host *
+    ServerAliveInterval 15
+    ServerAliveCountMax 3
+    TCPKeepAlive yes
+    ControlMaster auto
+    ControlPersist 10m
+    ControlPath ~/.ssh/cm-%r@%h:%p
